@@ -31,10 +31,10 @@ void derivadas()
         cout << "A derivada de" << p_termo << " em relacao a X eh igual a: 0" << endl;
     }
 
-    cout << "Deseja derivar novamente? y | n: ";
+    cout << "Deseja encontrar a segunda derivada? y | n: "; // Realizar a criação de um laço WHILE para reduzir linhas e maior otimização.
     cin >> check_der_2;
 
-    if (check_der_2 == 'y' && acomp_x == 'y') // Realizar a criação de um laço WHILE para reduzir linhas e maior otimização.
+    if (check_der_2 == 'y' && acomp_x == 'y')
     {
         termo_der_2 = (termo_der * exp);
         g_exp = exp;
